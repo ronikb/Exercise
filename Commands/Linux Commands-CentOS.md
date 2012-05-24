@@ -1,5 +1,11 @@
 Apache
 
-1. Once you’ve made apache configurations, you need to ask Apache if everything is set up correctly. You can do so by running the following command:
+1. Test the Apache Configuration File httpd.conf (use any one of these)
 
 	service httpd configtest
+
+	apachectl configtest
+
+	/usr/local/apache/bin/apachectl configtest
+
+	apachectl -t
