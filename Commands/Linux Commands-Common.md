@@ -57,4 +57,10 @@ Note :watch command is used to get realtime updations
 
 	tar czf new-tar-file-name.tar.gz file-or-folder-to-archive
 
+11. find out which Linux version is installed
+
+	cat /etc/issue
+
+	cat /proc/version
+
 
