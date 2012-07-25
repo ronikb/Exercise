@@ -63,4 +63,8 @@ Note :watch command is used to get realtime updations
 
 	cat /proc/version
 
+12. Show installed php packages in ubuntu server
+
+	dpkg --get-selections | grep php
+
 
