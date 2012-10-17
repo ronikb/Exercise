@@ -1,9 +1,12 @@
-#How to setup Percona mysql replication
 
 ##Setting up Percona mysql master server
+
+Install these two in Both Master and Slave servers
 	
-	1. Install Percona mysql server
-	2. Install Percona xtrabackup
+Install Percona mysql server
+Install Percona xtrabackup
+
+note: XtraBackup knows where your mysql data is by reading your my.cnf
 
 Make a full mysql data backup and prepare it
 
@@ -72,11 +75,13 @@ Make sure everything went OK with the following command. type this command in my
 
 	SHOW SLAVE STATUS \G
 
+
+
 Ref: http://www.percona.com/doc/percona-xtrabackup/howtos/setting_up_replication.html#replication-howto
  
 
 	
-	note: XtraBackup knows where your mysql data is by reading your my.cnf
+	
 
 
 
