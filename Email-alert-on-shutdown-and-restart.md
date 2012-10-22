@@ -1,4 +1,4 @@
-## Email alert on Ubuntu server shoutdown and Restart
+## Email alert on Ubuntu server while shutdown and Restart
 
 	sudo apt-get install mutt
 
